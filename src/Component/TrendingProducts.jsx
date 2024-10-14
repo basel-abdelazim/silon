@@ -24,15 +24,15 @@ const TrendingProducts = () => {
                 {/* Action Links */}
                 <div className="action-links absolute inset-0 flex items-center justify-center space-x-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   {/* Quick View */}
-                  <a href="#" className="bg-white p-2 rounded-full shadow-md hover:bg-gray-200 transition duration-300">
+                  <a href="#" className="bg-white p-2 rounded-full shadow-md hover:bg-red-400 transition duration-300">
                     <img src="/assets/vision.png" alt="Quick View" className="w-6 h-6"/>
                   </a>
                   {/* Wishlist */}
-                  <a href="#" className="bg-white p-2 rounded-full shadow-md hover:bg-gray-200 transition duration-300">
+                  <a href="#" className="bg-white p-2 rounded-full shadow-md hover:bg-red-400 transition duration-300">
                     <img src="/assets/heart.png" alt="Wishlist" className="w-6 h-6"/>
                   </a>
                   {/* Add to Cart */}
-                  <a href="#" className="bg-white p-2 rounded-full shadow-md hover:bg-gray-200 transition duration-300">
+                  <a href="#" className="bg-white p-2 rounded-full shadow-md hover:bg-red-400 transition duration-300">
                     <img src="/assets/shopping-cart.png" alt="Add to Cart" className="w-6 h-6"/>
                   </a>
                 </div>
